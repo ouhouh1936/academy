@@ -1,0 +1,58 @@
+.ACSC02 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.dateBox {
+  width: 90%;
+  height: 300px;
+  border: 1px solid #777;
+  box-shadow: 3px 3px 3px #777;
+  border-radius: 3px;
+  margin: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dateBox .dateBox__col1,
+.dateBox .dateBox__col2,
+.dateBox .dateBox__col3 {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fileBox {
+  width: 90%;
+  height: 300px;
+  border: 1px solid #777;
+  box-shadow: 3px 3px 3px #777;
+  border-radius: 3px;
+  margin: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inputFile {
+  display: none;
+}
+.fileBox__id {
+  display: block;
+  width: 140px;
+  height: 30;
+  line-height: 30px;
+  text-align: center;
+  border: 2px solid #999;
+  background-color: #777;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
